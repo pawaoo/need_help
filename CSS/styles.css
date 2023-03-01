@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  margin: 0px;
+  flex-wrap: nowrap
+}
+
+nav img {
+  height: 50px;
+  float: left;
+  margin: 10px;
+}
+
+nav ul {
+  float: right;
+  vertical-align: baseline;
+  padding-right: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  padding: 25px 10px;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.two {
+  width: 450px;
+  float: left;
+  margin-left: 200px;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+
+aside {
+  width: 300px;
+  float: right;
+  margin-right: 200px;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+}
+
+
+.hero {
+  background-color: rgb(201, 201, 201);
+}
+
+.cycle-slideshow {
+  background-color: rgb(201, 201, 201);
+}
+
+.cycle-slideshow img{
+  height:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.annoucement {
+  margin: 2em;
+}
+
+.annoucement h1,
+h3 {
+  text-align: center;
+}
+
+.food {
+  padding: 1em;
+}
+
+.foodmenu {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center space-around;
+}
+
+.food_category {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.food img {
+  width: 250px;
+  height: 180px;
+}
+
+.details {
+  padding: 0 5px;
+  height: 1.2em;
+  background-color: bisque;
+}
+
+.food_size {
+  float: right;
+  justify-content: space-around;
+}
+
+.food_price {
+  float: left;
+  justify-content: space-around;
+}
+
+.food_name {
+  background-color: #eadcd5;
+  text-align: center;
+  padding: 6px;
+}
+
+.block {
+  margin: 2em;
+}
+
+.block img {
+  margin-right: 1em;
+  width: 450px;
+}
+
+.notes {
+  margin: 2em 1em;
+  line-height: 1.4;
+}
+
+hr.new4 {
+  border: 1px solid #3ac8b5;
+  margin-bottom: 1em;
+}
+
+.contact h2 {
+  border: 1px solid #3ac8b5;
+  border-style: double 2px;
+}
+
+p {
+  padding: 0.5em 0;
+}
+
+footer {
+  text-align: center;
+  margin: 3em;
+}
